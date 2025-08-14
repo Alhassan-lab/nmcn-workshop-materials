@@ -7,7 +7,7 @@ import { zones, type Material } from '@/data/materials';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Download, FileText, FilePresentation, FileArchive, Search, ArrowLeft } from 'lucide-react';
+import { Download, FileText, Presentation, FileArchive, Search, ArrowLeft } from 'lucide-react';
 
 function getFileIcon(type: Material['type']) {
   const iconClass = "h-8 w-8 shrink-0";
@@ -15,7 +15,7 @@ function getFileIcon(type: Material['type']) {
     case 'pdf':
       return <FileText className={`${iconClass} text-destructive`} />;
     case 'ppt':
-      return <FilePresentation className={`${iconClass} text-primary`} />;
+      return <Presentation className={`${iconClass} text-primary`} />;
     case 'doc':
       return <FileArchive className={`${iconClass} text-secondary-foreground`} />;
     default:

@@ -5,7 +5,7 @@ import { ArrowRight } from 'lucide-react';
 
 export default function Home() {
   return (
-    <section aria-labelledby="zones-heading" className="max-w-5xl mx-auto">
+    <section aria-labelledby="zones-heading" className="max-w-4xl mx-auto">
       <h2 id="zones-heading" className="sr-only">Geo-Political Zones</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {zones.map((zone) => (

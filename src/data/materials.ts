@@ -67,6 +67,11 @@ export const zones: Zone[] = [
   {
     name: "GOMBE",
     slug: "gombe",
+    materials: [],
+  },
+  {
+    name: "EBONYI",
+    slug: "ebonyi",
     materials: [
       { name: "CAOSCE EXPECTATIONS FROM EXAMINERS AND STUDENTS.pptx", type: "ppt", url: "https://vzeqdlvoucqumgpisctk.supabase.co/storage/v1/object/public/documents/GOMBE/CAOSCE%20EXPECTATIONS%20FROM%20EXAMINERS%20AND%20STUDENTS.pptx" },
       { name: "CLINICAL PLACEMENT, NURSING DIAGNOSES.pptx", type: "ppt", url: "https://vzeqdlvoucqumgpisctk.supabase.co/storage/v1/object/public/documents/GOMBE/CLINICAL%20PLACEMENT,%20NURSING%20DIAGNOSES.pptx" },
@@ -80,15 +85,6 @@ export const zones: Zone[] = [
       { name: "REQUIREMENT FOR CBT AND CAOSCE CENTRES.pptx", type: "ppt", url: "https://vzeqdlvoucqumgpisctk.supabase.co/storage/v1/object/public/documents/GOMBE/REQUIREMENT%20FOR%20CBT%20AND%20CAOSCE%20CENTRES.pptx" },
       { name: "RULES AND REG GUIDING COUNCIL EXAMINATION.pptx", type: "ppt", url: "https://vzeqdlvoucqumgpisctk.supabase.co/storage/v1/object/public/documents/GOMBE/RULES%20AND%20REG%20GUIDING%20COUNCIL%20EXAMINATION.pptx" },
       { name: "Stregthening Formative and Summative Assessment.pptx", type: "ppt", url: "https://vzeqdlvoucqumgpisctk.supabase.co/storage/v1/object/public/documents/GOMBE/Stregthening%20Formative%20and%20Summative%20Assessment.pptx" },
-    ],
-  },
-  {
-    name: "EBONYI",
-    slug: "ebonyi",
-    materials: [
-      { name: "Pre-reading Material.pdf", type: "pdf", url: "#" },
-      { name: "Workshop Handbook.doc", type: "doc", url: "#" },
-      { name: "Final Presentation.ppt", type: "ppt", url: "#" },
     ],
   },
   {

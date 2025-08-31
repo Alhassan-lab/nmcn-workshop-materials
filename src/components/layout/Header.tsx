@@ -26,7 +26,7 @@ export function Header() {
           </Link>
         </div>
         <h1 className="text-2xl md:text-4xl font-bold text-primary tracking-tight">
-          Examiners Workshop Materials Download Portal
+          2025 Examiners Workshop Materials Download Portal
         </h1>
         <p className="text-muted-foreground mt-2 max-w-2xl mx-auto">
           Access and download materials from all 6 Geo-Political Zones

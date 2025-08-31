@@ -33,9 +33,15 @@ export const zones: Zone[] = [
     name: "CROSS RIVER",
     slug: "cross-river",
     materials: [
-      { name: "Day 1 Slides.ppt", type: "ppt", url: "#" },
-      { name: "Group Work Instructions.doc", type: "doc", url: "#" },
-      { name: "Resources List.pdf", type: "pdf", url: "#" },
+      { name: "Digital assessment and evaluation in Modern Educational Landscape.pptx", type: "ppt", url: "https://vzeqdlvoucqumgpisctk.supabase.co/storage/v1/object/public/documents/EBONYI%20CENTER%20PRESENTATION/DAY%201/Digital%20assessment%20and%20evaluation%20in%20Modern%20Educational%20Landscape.pptx" },
+      { name: "CAOSCE EXPECTATIONS FROM EXAMINERS AND STUDENTS.pptx", type: "ppt", url: "https://vzeqdlvoucqumgpisctk.supabase.co/storage/v1/object/public/documents/EBONYI%20CENTER%20PRESENTATION/DAY%202/CAOSCE%20EXPECTATIONS%20FROM%20EXAMINERS%20AND%20STUDENTS.pptx" },
+      { name: "Clinical Placement and NCP.pptx", type: "ppt", url: "https://vzeqdlvoucqumgpisctk.supabase.co/storage/v1/object/public/documents/EBONYI%20CENTER%20PRESENTATION/DAY%202/Clinical%20Placement%20and%20NCP.pptx" },
+      { name: "OBJECTIVITY IN CAOSCE ASSESSMENT OF STUDENTS.pptx", type: "ppt", url: "https://vzeqdlvoucqumgpisctk.supabase.co/storage/v1/object/public/documents/EBONYI%20CENTER%20PRESENTATION/DAY%202/OBJECTIVITY%20IN%20CAOSCE%20ASSESSMENT%20OF%20STUDENTS.pptx" },
+      { name: "E-POSTING APPLICATION DEMONSTRATION.pptx", type: "ppt", url: "https://vzeqdlvoucqumgpisctk.supabase.co/storage/v1/object/public/documents/EBONYI%20CENTER%20PRESENTATION/DAY%203/E-POSTING%20APPLICATION%20DEMONSTRATION.pptx" },
+      { name: "EXAMINATION MALPRACTICE.pptx", type: "ppt", url: "https://vzeqdlvoucqumgpisctk.supabase.co/storage/v1/object/public/documents/EBONYI%20CENTER%20PRESENTATION/DAY%203/EXAMINATION%20MALPRACTICE.pptx" },
+      { name: "Examination Malpratice new.pptx", type: "ppt", url: "https://vzeqdlvoucqumgpisctk.supabase.co/storage/v1/object/public/documents/EBONYI%20CENTER%20PRESENTATION/DAY%203/Examination%20Malpratice%20new.pptx" },
+      { name: "REQUIREMENT FOR CBT AND CAOSCE CENTRES.pptx", type: "ppt", url: "https://vzeqdlvoucqumgpisctk.supabase.co/storage/v1/object/public/documents/EBONYI%20CENTER%20PRESENTATION/DAY%203/REQUIREMENT%20FOR%20CBT%20AND%20CAOSCE%20CENTRES.pptx" },
+      { name: "RULES AND REG GUIDING COUNCIL EXAMINATION.pptx", type: "ppt", url: "https://vzeqdlvoucqumgpisctk.supabase.co/storage/v1/object/public/documents/EBONYI%20CENTER%20PRESENTATION/DAY%203/RULES%20AND%20REG%20GUIDING%20COUNCIL%20EXAMINATION.pptx" },
     ],
   },
   {

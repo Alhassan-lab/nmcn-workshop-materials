@@ -1,3 +1,4 @@
+
 export type Material = {
   name: string;
   type: 'pdf' | 'ppt' | 'doc';
@@ -91,9 +92,16 @@ export const zones: Zone[] = [
     name: "EKITI",
     slug: "ekiti",
     materials: [
-      { name: "All Slides Combined.ppt", type: "ppt", url: "#" },
-      { name: "Feedback Form.doc", type: "doc", url: "#" },
-      { name: "Certificate Template.pdf", type: "pdf", url: "#" },
+      { name: "APPRAISAL AND SCORING OF RIN.pptx", type: "ppt", url: "https://vzeqdlvoucqumgpisctk.supabase.co/storage/v1/object/public/documents/EKITI/APPRAISAL%20AND%20SCORING%20OF%20RIN.pptx" },
+      { name: "CAOSCE EXPECTATIONS FROM EXAMINERS AND STUDENTS (1).pptx", type: "ppt", url: "https://vzeqdlvoucqumgpisctk.supabase.co/storage/v1/object/public/documents/EKITI/CAOSCE%20EXPECTATIONS%20FROM%20EXAMINERS%20AND%20STUDENTS%20(1).pptx" },
+      { name: "DIGITAL ASSESSMENT AND EVALUATION IN MODERN EDUCATIONAL LANDSCAPE.ppt.pptx", type: "ppt", url: "https://vzeqdlvoucqumgpisctk.supabase.co/storage/v1/object/public/documents/EKITI/DIGITAL%20ASSESSMENT%20AND%20EVALUATION%20IN%20MODERN%20EDUCATIONAL%20LANDSCAPE.ppt.pptx" },
+      { name: "EXAMINATION MALPRACTICE (1).pptx", type: "ppt", url: "https://vzeqdlvoucqumgpisctk.supabase.co/storage/v1/object/public/documents/EKITI/EXAMINATION%20MALPRACTICE%20(1).pptx" },
+      { name: "KEYNOTE ADDRESS _Prof.Esan.pptx", type: "ppt", url: "https://vzeqdlvoucqumgpisctk.supabase.co/storage/v1/object/public/documents/EKITI/KEYNOTE%20ADDRESS%20_Prof.Esan.pptx" },
+      { name: "MENTORSHIP & PRECEPTORSHIP MODELS EKITI CENTRE.ppt", type: "ppt", url: "https://vzeqdlvoucqumgpisctk.supabase.co/storage/v1/object/public/documents/EKITI/MENTORSHIP%20&%20PRECEPTORSHIP%20MODELS%20EKITI%20CENTRE.ppt" },
+      { name: "OBJECTIVITY IN CAOSCE ASSESSMENT OF STUDENTS.pptx", type: "ppt", url: "https://vzeqdlvoucqumgpisctk.supabase.co/storage/v1/object/public/documents/EKITI/OBJECTIVITY%20IN%20CAOSCE%20ASSESSMENT%20OF%20STUDENTS.pptx" },
+      { name: "RULES AND REG GUIDING COUNCIL EXAMINATION.pptx", type: "ppt", url: "https://vzeqdlvoucqumgpisctk.supabase.co/storage/v1/object/public/documents/EKITI/RULES%20AND%20REG%20GUIDING%20COUNCIL%20EXAMINATION.pptx" },
+      { name: "Stregthening Formative and Summative Assessment.pptx", type: "ppt", url: "https://vzeqdlvoucqumgpisctk.supabase.co/storage/v1/object/public/documents/EKITI/Stregthening%20Formative%20and%20Summative%20Assessment.pptx" },
+      { name: "TEST ITEM CONSTRUCTION AND ASSESSMENT.pptx", type: "ppt", url: "https://vzeqdlvoucqumgpisctk.supabase.co/storage/v1/object/public/documents/EKITI/TEST%20ITEM%20CONSTRUCTION%20AND%20ASSESSMENT.pptx" },
     ],
   },
 ];

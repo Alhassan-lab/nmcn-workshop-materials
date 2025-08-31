@@ -1,20 +1,18 @@
-import Link from 'next/link';
+import Image from "next/image";
+import Link from "next/link";
 
 const Logo = () => (
-    <div className="flex items-center justify-center gap-2 text-primary font-bold text-2xl">
-        <svg
-            width="40"
-            height="40"
-            viewBox="0 0 24 24"
-            fill="currentColor"
-            xmlns="http://www.w3.org/2000/svg"
-        >
-            <path d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2ZM17,13H13V17H11V13H7V11H11V7H13V11H17V13Z" />
-        </svg>
-        <span>NMCN</span>
-    </div>
+  <div className="flex items-center justify-center gap-2 text-primary font-bold text-2xl">
+    <Image 
+      src="layout/council.jpg"   // points to /public/council.jpg
+      alt="NMCN Logo"
+      width={40}           // adjust to match your design
+      height={40}
+      className="rounded-full" // optional: makes it circular
+    />
+    <span>NMCN</span>
+  </div>
 );
-
 
 export function Header() {
   return (

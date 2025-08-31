@@ -7,6 +7,9 @@ import { Toaster } from '@/components/ui/toaster';
 export const metadata: Metadata = {
   title: 'NMCN Materials Hub',
   description: 'Download materials from the NMCN Examiners Workshop.',
+  icons: {
+    icon: '/council.jpg',
+  },
 };
 
 export default function RootLayout({

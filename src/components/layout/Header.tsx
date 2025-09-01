@@ -4,7 +4,7 @@ import Link from "next/link";
 const Logo = () => (
   <div className="flex items-center justify-center gap-2 text-primary font-bold text-2xl">
     <Image 
-      src="layout/council.jpg"   // points to /public/council.jpg
+      src="/council.jpg"   // points to /public/council.jpg
       alt="NMCN Logo"
       width={40}           // adjust to match your design
       height={40}

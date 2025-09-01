@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: 'NMCN Materials Hub',
   description: 'Download materials from the NMCN Examiners Workshop.',
   icons: {
-    icon: '/council.jpg',
+    icon: 'https://licence.nmcn.gov.ng/Assets/img/nursing.png',
   },
 };
 

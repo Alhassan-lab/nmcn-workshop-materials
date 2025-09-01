@@ -21,6 +21,12 @@ const nextConfig: NextConfig = {
         hostname: '6000-firebase-studio-1755038255066.cluster-cbeiita7rbe7iuwhvjs5zww2i4.cloudworkstations.dev',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'licence.nmcn.gov.ng',
+        port: '',
+        pathname: '/**',
       }
     ],
   },

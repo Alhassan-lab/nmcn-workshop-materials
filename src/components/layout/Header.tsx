@@ -7,7 +7,7 @@ export function Header() {
       <div className="container mx-auto px-4 py-6 text-center">
         <div className="flex justify-center mb-4">
             <Image 
-              src="https://6000-firebase-studio-1755038255066.cluster-cbeiita7rbe7iuwhvjs5zww2i4.cloudworkstations.dev/capra/attachedImages/2cb14edc-99b3-4114-91fe-4f1c1a6c9e2d/image_324cf03f-bfb0-4303-b5d5-999a0e7fbbb3.png"
+              src="https://licence.nmcn.gov.ng/Assets/img/nursing.png"
               alt="Nursing and Midwifery Council of Nigeria Logo"
               width={100}
               height={100}

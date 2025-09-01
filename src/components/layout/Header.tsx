@@ -1,8 +1,15 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const Logo = () => (
-  <div className="flex items-center justify-center gap-2 text-primary font-bold text-2xl">
-    <span>NMCN</span>
+  <div className="flex items-center justify-center">
+    <Image 
+      src="/council.jpg"
+      alt="Nursing and Midwifery Council of Nigeria Logo"
+      width={60}
+      height={60}
+      priority
+    />
   </div>
 );
 

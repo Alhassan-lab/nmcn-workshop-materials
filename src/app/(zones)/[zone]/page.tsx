@@ -69,12 +69,12 @@ export default function ZonePage() {
                 {filteredMaterials.length > 0 ? (
                     <ul className="space-y-3">
                         {filteredMaterials.map((material) => (
-                        <li key={material.name} className="flex items-center justify-between p-4 border rounded-lg bg-background hover:bg-muted/50 transition-colors">
-                            <div className="flex items-center gap-4">
+                        <li key={material.name} className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 p-4 border rounded-lg bg-background hover:bg-muted/50 transition-colors">
+                            <div className="flex items-center gap-4 min-w-0">
                                 {getFileIcon(material.type)}
-                                <span className="font-medium">{material.name}</span>
+                                <span className="font-medium truncate">{material.name}</span>
                             </div>
-                            <Button asChild variant="outline">
+                            <Button asChild variant="outline" className="w-full sm:w-auto shrink-0">
                                 <a href={material.url} download>
                                     <Download className="mr-2 h-4 w-4" />
                                     Download

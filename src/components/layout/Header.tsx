@@ -1,15 +1,7 @@
-import Image from "next/image";
 import Link from "next/link";
 
 const Logo = () => (
   <div className="flex items-center justify-center gap-2 text-primary font-bold text-2xl">
-    <Image 
-      src="/council.jpg"   // points to /public/council.jpg
-      alt="NMCN Logo"
-      width={40}           // adjust to match your design
-      height={40}
-      className="rounded-full" // optional: makes it circular
-    />
     <span>NMCN</span>
   </div>
 );
